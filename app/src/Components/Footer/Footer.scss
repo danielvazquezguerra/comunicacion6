@@ -1,0 +1,51 @@
+@import '../../Colors.scss';
+
+
+.FooterWrapper {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    .FooterInfo {
+
+        width: auto;
+        height: 100%;
+        
+        p {
+            
+            color: $goldenrod;
+            font-family: 'Gotham', sans-serif;
+            font-weight: 800;
+            margin: 0px;
+        
+        }
+
+    }
+}
+
+.SocialBox {
+    
+    display: flex;
+    width: auto;
+    height: 100%;
+    padding: 1em;
+
+
+}
+
+.SocialIcon {
+    
+    color: $goldenrod;
+    font-size: 1.6em;
+    margin-left: 1.5em;
+   
+}
+
+
+.IconBox {
+    
+    font-size: 1em;
+    font-weight: 800;
+
+}

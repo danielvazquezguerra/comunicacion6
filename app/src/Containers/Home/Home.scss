@@ -1,0 +1,75 @@
+@import '../../Colors.scss';
+
+
+.HomeWrapper {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 100%;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: visible;
+
+
+
+    h3 {
+
+        width: 70%;
+        font-family: 'Gotham', sans-serif;
+        font-weight: 800;
+        font-size: 12em;
+        color: transparent;
+        letter-spacing: -0.01em;
+        line-height: 0.9em;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $goldenrod;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .TitleHome {
+        
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    
+    .PincelHome {
+        
+        position: relative;
+        width: auto;
+        height: 25%;
+        left: -40%;
+        top: 1%;
+        // transform: rotate(90deg);
+        z-index: -2;
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 2px solid $goldenrod;
+    }
+
+    .HomeLineas {
+
+        position: absolute;
+        top: 0px;
+        height: 80%;
+        z-index: -3;
+    }
+}
+
+.HomeMain {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
