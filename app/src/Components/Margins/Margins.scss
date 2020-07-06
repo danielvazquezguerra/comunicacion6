@@ -1,0 +1,37 @@
+@import '../../Colors.scss';
+
+
+.ScrollMargin {
+    
+    
+    p {
+        
+        font-family: 'Gotham', sans-serif;
+        font-weight: 100;
+        color: $goldenrod;
+        margin: 0px;
+    }
+    
+    
+    .ScrollInfo {
+        
+        position: absolute;
+        width: 50%;
+        top: 30vh;
+        right: -21vw;
+        transform: rotate(-90deg);
+        display: flex;
+        align-items: center;
+        font-family: 'Gotham',sans-serif;
+        letter-spacing: 1em;
+        font-weight: 800;
+        font-size: 0.7em;
+        position: absolute;
+        color: $goldenrod;
+        
+        .fas {
+            color: $goldenrod;
+        }
+    }
+
+}

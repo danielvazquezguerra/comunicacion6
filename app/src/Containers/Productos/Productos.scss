@@ -1,0 +1,84 @@
+@import '../../Colors.scss';
+
+
+.ProductosWrapper {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 8em;
+    width: 90%;
+    height: auto;
+    padding: 0px;
+    font-family: 'Gotham', sans-serif;
+    border-top: 1px solid $goldenrod;
+    padding: 2em;
+
+    .Subtitulo {
+
+        width: 30%;
+        color: $goldenrod;
+        font-size: 4em;
+        margin-bottom: 0.5em;
+        -webkit-text-stroke-width: 0;
+        -webkit-text-stroke-color: $goldenrod;
+    }
+
+}
+    
+.ProductosContainerUp {
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid $goldenrod;
+    padding: 2em;
+    
+    .ProductosTitulo {
+        
+        width: 50%;
+        font-size: 5vw;
+        color: $goldenrod;
+        margin-bottom: 0.5em;
+        -webkit-text-stroke-width: 0;
+        -webkit-text-stroke-color: $goldenrod;
+        padding: 0.5em;
+        text-align: right;
+
+    }
+
+    p {
+
+            width: 40%;
+            font-weight: 400;
+            color: $goldenrod;
+            line-height: 1.8em;
+            padding: 1em;
+
+        }
+
+        
+    }
+    
+    .ProductosContainerDown {
+        
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 1em;
+      color: $goldenrod;
+
+        .ServiceItem {
+
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: auto;
+            // border: 5px solid $goldenrod;
+            padding: 2em;
+            margin: 0.5em;
+            min-width: 300px;
+        }
+
+    }

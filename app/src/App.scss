@@ -1,9 +1,10 @@
 @import './Colors.scss';
 
 .App {
+
   width: 100vw;
   height: 100vh;
-  background-size: cover;
+  overflow: hidden;
 
 }
 
@@ -11,6 +12,7 @@
 
   width: 100vw;
   height: 20vh;
+  // border: 1px solid white;
 
 }
 
@@ -24,7 +26,7 @@
   
   width: 100%;
   height: 70%;
-  overflow-x: visible;
+
 
 }
 
