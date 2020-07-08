@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Productos.scss';
+import Carousel from 'react-bootstrap/Carousel';
 
 const Productos = (props) => {
+
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+    };
 
     return (
 
@@ -99,8 +106,58 @@ const Productos = (props) => {
 
             </div>
 
-           
-            
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/images/carrusel-01.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <p className="SlideTitle">First slide label</p>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/images/carrusel-02.jpg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <p className="SlideTitle">Second slide label</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/images/carrusel-03.jpg"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <p className="SlideTitle">Third slide label</p>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+            <section className="FraseBottom">
+
+
+                <h3> El verdadero <span>creativo</span> es aquel que es capaz de plasmar pacientemente 
+                    una <span>idea</span> rodeado de los tumultos de la <span>historia</span>
+                </h3>
+
+                <p>Salvador Dalí</p>
+                
+                
+            </section> 
+
         </div>
     )
 }

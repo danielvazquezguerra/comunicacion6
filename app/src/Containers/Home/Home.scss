@@ -63,8 +63,17 @@
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: $goldenrod;
         margin: 0px;
-        // border: 1px solid white;
+        opacity: 1;
+        animation-name: translate;
+        animation-duration: 1s;
         
+    }
+
+    @keyframes translate {
+        
+        from { opacity: 0; }
+        to { opacity: 1;}
+    }
         
         .Diseño {
 
@@ -80,7 +89,6 @@
             -webkit-text-stroke-color: $goldenrod;
         }
         
-    }
     
     
     
