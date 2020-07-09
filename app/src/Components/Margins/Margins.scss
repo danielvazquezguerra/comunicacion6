@@ -2,6 +2,11 @@
 
 
 .ScrollMargin {
+
+    position: fixed;
+    width: 60%;
+    top: 20%;
+    right: 10%;
     
     
     p {
@@ -15,7 +20,7 @@
     
     .ScrollInfo {
         
-        position: absolute;
+        position: fixed;
         width: 50%;
         top: 30vh;
         right: -21vw;
