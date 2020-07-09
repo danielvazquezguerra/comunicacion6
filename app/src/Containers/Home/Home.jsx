@@ -1,17 +1,21 @@
 import React from 'react';
+import Rellax from 'rellax';
 import './Home.scss';
 import Productos from '../Productos/Productos';
 
 const Home = (props) => {
+
+    const rellax = new Rellax ('.Rellax');
+
+   
     return (
-        
+       
         <section className="HomeWrapper"> 
 
-             {/* <img className="CirculoRojo" src="/images/circulo_rojo.png" alt=""/> */}
 
-             <img className="TrianguloRight" src="/images/lineas_triangulo.png" alt=""/>
+             <img className="TrianguloRight Rellax" src="/images/lineas_triangulo_right.png" data-rellax-speed="2" alt=""/>
 
-             <img className="TrianguloLeft" src="/images/lineas_triangulo_2.png" alt=""/>
+             <img className="TrianguloLeft Rellax" src="/images/lineas_triangulo_left.png" data-rellax-speed="-4" alt=""/>
 
             <div className="HomeMain justify-content-center align-items-center">
 
