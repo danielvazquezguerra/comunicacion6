@@ -37,7 +37,7 @@ const Productos = (props) => {
 
             <div className="ProductosContainerDown">
 
-                <div className="ServiceItem">
+                <div className="ServiceItem White">
 
                     <h4>Branding</h4>
 
@@ -49,7 +49,7 @@ const Productos = (props) => {
                 </div>
 
                 
-                <div className="ServiceItem">
+                <div className="ServiceItem White">
 
                     <h4>Advertising</h4>
 
@@ -60,7 +60,7 @@ const Productos = (props) => {
 
                 </div>
 
-                <div className="ServiceItem">
+                <div className="ServiceItem White">
 
                     <h4>Packaging</h4>
 
@@ -71,7 +71,7 @@ const Productos = (props) => {
 
                 </div>
 
-                <div className="ServiceItem">
+                <div className="ServiceItem White">
 
                     <h4>Sings</h4>
 
@@ -81,7 +81,7 @@ const Productos = (props) => {
 
                 </div>
 
-                <div className="ServiceItem">
+                <div className="ServiceItem White">
 
                     <h4>Impresión</h4>
 
@@ -91,7 +91,7 @@ const Productos = (props) => {
 
                 </div>
 
-                <div className="ServiceItem">
+                <div className="ServiceItem White">
 
 
                     <h4>Diseño Gráfico</h4>

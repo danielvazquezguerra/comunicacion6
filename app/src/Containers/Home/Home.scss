@@ -119,4 +119,25 @@
 
 }
 
+.BackText {
+
+    width: 50%;
+    height: auto;
+    position: absolute;
+    z-index: -2;
+    top: 0px;
+  
+    h4 {
+  
+      font-size: 10em;
+      color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      font-family: 'Gotham', sans-serif;
+      font-weight: 800;
+  
+    }
+  
+  }
+
 

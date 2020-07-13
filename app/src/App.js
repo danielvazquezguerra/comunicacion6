@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Home from './Containers/Home/Home';
 import Footer from './Components/Footer/Footer';
 import Margins from './Components/Margins/Margins';
-
+import About from './Containers/About/About';
 
 
 
@@ -29,8 +29,8 @@ function App() {
 
         <Switch>
 
-            <Home />
-            {/* <Rellax /> */}
+          <Route path="/home" component={ Home } exact/>
+          <Route path="/nosotros" component={ About } exact/>
 
         </Switch>
 

@@ -13,9 +13,9 @@ const Header = () => {
 
                 <div className="ButtonsContainer d-flex w-50 align-items-center justify-content-around mr-5">
 
-                    <a href="/#">HOME</a>
+                    <a href="/home">HOME</a>
                     <a href="/#">PRODUCTOS</a>
-                    <a href="/#">NOSOTROS</a>
+                    <a href="/nosotros">NOSOTROS</a>
                     <a href="/#">PROYECTOS</a>
 
                 </div>
