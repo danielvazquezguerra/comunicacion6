@@ -106,41 +106,41 @@ const Productos = (props) => {
 
             </div>
 
-            <Carousel activeIndex={index} onSelect={handleSelect}>
+            <Carousel className="Carousel" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/carrusel-01.jpg"
+          src="/images/la-cachiteria-01.png"
           alt="First slide"
         />
         <Carousel.Caption>
-          <p className="SlideTitle">First slide label</p>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p className="SlideTitle">LA CACHITERIA</p>
+          <p>Valencia, España</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/carrusel-02.jpg"
+          src="/images/julia-01.png"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <p className="SlideTitle">Second slide label</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="SlideTitle">JULIA MINIMARKET</p>
+          <p>Valencia, España</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/images/carrusel-03.jpg"
+          src="/images/altamira-01.png"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <p className="SlideTitle">Third slide label</p>
+          <p className="SlideTitle">ALTAMIRA</p>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Tenerife, España
           </p>
         </Carousel.Caption>
       </Carousel.Item>

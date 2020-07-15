@@ -43,7 +43,6 @@
     justify-content: flex-start;
     align-items: center;
     padding: 2em;
-    border-top: 1px solid white;
     
     .ProductosTitulo {
         
@@ -80,6 +79,7 @@
       color: $goldenrod;
 
       .White {
+          
           color: white;
       }
 
@@ -134,9 +134,8 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        border: 1px solid $goldenrod;
         margin-top: 4vw;
-        padding: 10vw;
+        padding: 2vw;
 
 
         h3 {
@@ -170,4 +169,8 @@
             font-weight: 800;
         }
 
+    }
+
+    .Carousel {
+       
     }

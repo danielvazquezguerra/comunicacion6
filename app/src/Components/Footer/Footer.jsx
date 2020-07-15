@@ -18,9 +18,9 @@ const Footer = (props) => {
 
                 <div className="IconBox d-flex w-auto h-auto mr-5">
                     
-                    <i class="SocialIcon fab fa-instagram"></i>
-                    <i class="SocialIcon fab fa-facebook-f"></i>
-                    <i class="SocialIcon fab fa-behance"></i>
+                    <a href="https://www.instagram.com/comunicacion6tenerife/?hl=es"><i class="SocialIcon fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/comunicacion6/"><i class="SocialIcon fab fa-facebook-f"></i></a>
+                    <a href="https://www.behance.net/comunicacion6estudio"><i class="SocialIcon fab fa-behance"></i></a>
 
                 </div>
 

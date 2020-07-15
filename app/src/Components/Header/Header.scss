@@ -17,6 +17,18 @@
         font-family: 'Gotham', sans-serif;
         font-size: 0.9em;
         font-weight: 800;
+        transition: $transition;
+    }
+
+    a:hover {
+        
+        all: unset;
+        color: $goldenrod;
+        cursor: pointer;
+        font-family: 'Gotham', sans-serif;
+        font-size: 1.5em;
+        font-weight: 800;
+        transition: $transition;
     }
 
     .Burger {
@@ -31,5 +43,15 @@
     height: 70%;
     cursor: pointer;
     margin: 0em 4em 0em 2em;
+    transition: $transition;
+
+}
+
+.HeaderLogo:hover {
+
+    height: 80%;
+    cursor: pointer;
+    margin: 0em 4em 0em 2em;
+    transition: $transition;
 
 }
