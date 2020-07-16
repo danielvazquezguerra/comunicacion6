@@ -10,6 +10,16 @@
     height: 100%;
     justify-content: center;
     align-items: center;
+    animation-name: ContactWindow;
+    animation-duration: 1s;
+    transition: $transition;
+
+    @keyframes ContactWindow {
+
+        0%  { filter: blur(20px); opacity: 0;}
+        100% { filter: blur(0px); opacity: 1;}
+
+    }
 
     .ContactMain {
 
@@ -72,7 +82,7 @@
                 
                 font-weight: 800;
                 font-size: 1.4em;
-                
+
             }
             .Address {
 
