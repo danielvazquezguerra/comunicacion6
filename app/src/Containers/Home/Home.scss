@@ -7,11 +7,25 @@
     height: 100%;
     margin: 0px;
     padding-top: 8%;
+    transition-delay: 2s;
 
     .HomeTitle {
 
         width: 80%;
+        animation-name: TitleMove;
+        animation-duration: 2s;
+        transition: ease-in-out;
     }
+
+    
+    @keyframes TitleMove {
+
+        0%  { filter: blur(20px); opacity: 0;}
+        100% { filter: blur(0px); opacity: 1;}
+
+    }
+
+
 
 
     .TrianguloTop {
@@ -23,6 +37,18 @@
         height: auto;
         transform: rotate(-90deg);
         z-index: -2;
+        animation-name: TrianguloMove;
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        $transition: 0.1s cubic-bezier(.66,-0.21,.31,1.36);
+     
+        
+    }
+
+    @keyframes TrianguloMove {
+
+        0%  { top:-180vh; opacity: 0;}
+        100% {top:-40vh; opacity: 1;}
 
     }
 
