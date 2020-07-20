@@ -31,10 +31,10 @@ function App() {
 
         <Switch>
 
-          <Route path="/" component={ Home } exact/>
-          <Route path="/productos" component={ Productos } exact/>
-          <Route path="/nosotros" component={ About } exact/>
-          <Route path="/contact" component={ Contact } exact />
+          <Route path="/" component= { Home } exact/>
+          <Route path="/productos" component= { Productos } exact/>
+          <Route path="/nosotros" component= { About } exact/>
+          <Route path="/contact" component= { Contact } exact />
 
         </Switch>
 
