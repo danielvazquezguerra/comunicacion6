@@ -20,6 +20,16 @@
     color: $goldenrod;
     border: 1px solid $goldenrod;
     font-family: 'Gotham', sans-serif;
+    animation-name: ContactWindow;
+    animation-duration: 1s;
+    transition: $transition;
+
+    @keyframes ContactWindow {
+
+        0%  { filter: blur(20px); opacity: 0;}
+        100% { filter: blur(0px); opacity: 1;}
+
+    }
 
     .AboutLeft {
 
