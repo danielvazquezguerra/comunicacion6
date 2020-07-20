@@ -1,0 +1,176 @@
+@import '../../Colors.scss';
+
+
+.SlideWrapper {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    width: 90%;
+    height: auto;
+    padding: 0px;
+    font-family: 'Gotham', sans-serif;
+ 
+    padding: 2em;
+
+    .Subtitulo {
+
+        width: 30%;
+        color: $goldenrod;
+        font-size: 4em;
+        margin-bottom: 0.5em;
+        -webkit-text-stroke-width: 0;
+        -webkit-text-stroke-color: $goldenrod;
+        animation-name: translate;
+        animation-duration: 1s;
+        opacity: 0;
+        
+            @keyframes translate {
+                
+                from {opacity: 0;}
+                to {opacity: 1;}
+                
+              }
+    }
+
+}
+    
+.ProductosContainerUp {
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em;
+    
+    .ProductosTitulo {
+        
+        width: 50%;
+        font-size: 5vw;
+        color: white;
+        margin-bottom: 0.5em;
+        -webkit-text-stroke-width: 0;
+        -webkit-text-stroke-color: $goldenrod;
+        padding: 0.5em;
+        text-align: right;
+
+    }
+
+    p {
+
+            width: 40%;
+            font-weight: 400;
+            color: white;
+            line-height: 1.8em;
+            padding: 1em;
+
+        }
+
+        
+    }
+    
+    .ProductosContainerDown {
+        
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 1em;
+      color: $goldenrod;
+
+      .White {
+          
+          color: white;
+      }
+
+      h4 {
+
+        font-size: 3vw;
+        font-weight: 800;
+        
+      }
+
+      p {
+          font-size: 0.9em;
+      }
+
+     
+
+        .ServiceItem {
+
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: auto;
+            // border: 5px solid $goldenrod;
+            padding: 2em;
+            margin: 0.5em;
+            min-width: 300px;
+        }
+
+    }
+
+    .SlideTitle {
+          
+        color: white;
+        font-size: 2em;
+        font-family: 'Gotham', sans-serif;
+        font-weight: 800;
+
+      }
+      
+
+    .carouse-control-next-icon {
+
+        fill: $goldenrod;
+
+    }
+
+
+    .FraseBottom {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 4vw;
+        padding: 2vw;
+
+
+        h3 {
+
+            font-family: 'Gotham', sans-serif;
+            font-weight: 100;
+            font-size: 2em;
+            line-height: 3vw;
+            width: 50%;
+            -webkit-text-stroke-width: 0;
+            -webkit-text-stroke-color: $goldenrod;
+            color: $goldenrod;
+            padding: 2vw;
+            letter-spacing: 1vw;
+            border-bottom: 1px solid $goldenrod;
+        }
+
+        p {
+
+            font-family: 'Gotham', sans-serif;
+            font-weight: 800;
+            letter-spacing: 1vw;
+            font-size: 1vw;
+            margin-top: 3vw;
+            color: $goldenrod;
+
+        }
+
+        span {
+
+            font-weight: 800;
+        }
+
+    }
+
+    .Carousel {
+       
+    }

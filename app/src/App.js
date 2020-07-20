@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Margins from './Components/Margins/Margins';
 import About from './Containers/About/About';
 import Contact from './Containers/Contact/Contact';
+import Productos from './Containers/Productos/Productos';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Switch>
 
           <Route path="/" component={ Home } exact/>
+          <Route path="/productos" component={ Productos } exact/>
           <Route path="/nosotros" component={ About } exact/>
           <Route path="/contact" component={ Contact } exact />
 

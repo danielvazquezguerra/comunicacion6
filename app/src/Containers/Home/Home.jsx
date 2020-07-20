@@ -1,7 +1,7 @@
 import React from 'react';
 import Parallax from 'react-rellax';
 import './Home.scss';
-import Productos from '../Productos/Productos';
+import SlideHome from '../SlideHome/SlideHome';
 
 
 
@@ -37,7 +37,7 @@ const Home = () => {
 
                 <img className="HomeTitle" src="/images/comunicacion-title-3.png" alt=""/>
 
-                <Productos />
+                <SlideHome />
  
                  
             </div>
