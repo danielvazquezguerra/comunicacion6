@@ -12,7 +12,8 @@ const Contact = () => {
 
                 <div className="ContactLeft">
 
-                    <img className="ContactImg" src="/images/contac-comunicacion-6.png" alt=""/>
+                    <img className="ContactImg" src="/images/comunicacion-6-lineas.png" alt=""/>
+                    {/* <iframe width="100%" height="50%" frameborder="0" scrolling="no" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Av.%20Lucio%20D%C3%ADaz%20Flores%20Feo,%2083%20%20San%20Miguel%20de%20Abona%20%2038639+(Comunicacion%206)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> */}
 
 
                 </div>

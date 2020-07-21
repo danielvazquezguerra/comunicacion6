@@ -12,6 +12,12 @@ const Home = () => {
        
         <section className="HomeWrapper"> 
 
+            <Parallax speed={16}>
+
+                <img className="TrianguloBack" src="/images/lineas_triangulo_right.png" alt="" />
+
+            </Parallax>
+
             <Parallax speed={20}>
 
                 <img className="TrianguloTop" src="/images/lineas_triangulo_right.png" alt="" />
@@ -29,7 +35,7 @@ const Home = () => {
 
                 {/* <h3>CONCEPTO, <span className="Diseno">DISEÑO</span> & <span className="Produccion">PRODUCCIÓN</span></h3> */}
 
-                <img className="HomeTitle" src="/images/comunicacion-6-spray-4.png" alt=""/>
+                <img className="HomeTitle" src="/images/comunicacion-6-spray-5.png" alt=""/>
                 
 
                 <SlideHome />

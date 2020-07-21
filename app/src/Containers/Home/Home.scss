@@ -3,27 +3,28 @@
 
 .HomeWrapper {
     
+
     width: 100%;
     height: 100%;
-    margin: 0px;
-    transition-delay: 2s;
+    margin-top: 16vh;
     overflow-y: scroll;
     overflow-x: hidden;
+    z-index: 100;
    
 
     .HomeTitle {
 
         width: 80%;
         animation-name: TitleMove;
-        animation-duration: 2s;
+        animation-duration: 1s;
         transition: $transition;
     }
 
     
     @keyframes TitleMove {
 
-        0%  { filter: blur(20px); opacity: 0;}
-        100% { filter: blur(0px); opacity: 1;}
+        0%  { filter: blur(20px); opacity: 0; margin-top: -1200px; }
+        100% { filter: blur(0px); opacity: 1;  margin-top: 0px;}
 
     }
 
@@ -33,12 +34,12 @@
     .TrianguloTop {
 
         position: absolute;
-        top: -90vh;
+        top: -100vh;
         left: 20%;
         width: 60vw;
         height: auto;
         transform: rotate(-90deg);
-        z-index: -3;
+        z-index: 120;
         animation-name: TrianguloMove;
         animation-duration: 0.5s;
         animation-delay: 0.3s;
@@ -47,10 +48,25 @@
         
     }
 
+    .TrianguloBack {
+
+        position: absolute;
+        top: 50vh;
+        left: 10%;
+        width: 80vw;
+        height: auto;
+        transform: rotate(-90deg);
+        filter: blur(40px);
+        z-index: -6;
+    
+     
+        
+    }
+
     @keyframes TrianguloMove {
 
         0%  { top:-180vh; opacity: 0;}
-        100% {top:-90vh; opacity: 1;}
+        100% {top:-100vh; opacity: 1;}
 
     }
 
@@ -63,7 +79,7 @@
         width: 60vw;
         height: auto;
         transform: rotate(90deg);
-        z-index: -3;
+        z-index: 130;
         filter: blur(20px);
 
     }

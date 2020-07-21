@@ -7,7 +7,7 @@ const Footer = (props) => {
 
         <section className="FooterWrapper justify-content-end">
 
-            <div className="FooterInfo d-flex justify-content-start align-items-center">
+            <div className="FooterInfo">
 
                 <p>TENERIFE - ESPAÑA</p>
 
@@ -16,7 +16,7 @@ const Footer = (props) => {
             <div className="SocialBox justify-content-end align-items-center">
 
 
-                <div className="IconBox d-flex w-auto h-auto mr-5">
+                <div className="IconBox mr-5">
                     
                     <a href="https://www.instagram.com/comunicacion6tenerife/?hl=es"><i class="SocialIcon fab fa-instagram"></i></a>
                     <a href="https://www.facebook.com/comunicacion6/"><i class="SocialIcon fab fa-facebook-f"></i></a>
