@@ -1,8 +1,7 @@
 @import './Colors.scss';
 
 body {
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 body::-webkit-scrollbar {

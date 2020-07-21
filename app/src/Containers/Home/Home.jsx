@@ -24,18 +24,13 @@ const Home = () => {
 
             </Parallax>
 
-            <Parallax speed ={5}>
-
-                {/* <img className="TrianguloLeft" src="/images/lineas_triangulo_left.png" alt="" /> */}
-            
-            </Parallax>
-
 
             <div className="HomeMain justify-content-center align-items-center">
 
                 {/* <h3>CONCEPTO, <span className="Diseno">DISEÑO</span> & <span className="Produccion">PRODUCCIÓN</span></h3> */}
 
-                <img className="HomeTitle" src="/images/comunicacion-title-3.png" alt=""/>
+                <img className="HomeTitle" src="/images/comunicacion-6-spray-4.png" alt=""/>
+                
 
                 <SlideHome />
  

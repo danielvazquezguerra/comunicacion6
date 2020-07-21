@@ -3,11 +3,13 @@
 
 .HomeWrapper {
     
-    width: auto;
+    width: 100%;
     height: 100%;
     margin: 0px;
-    padding-top: 8%;
     transition-delay: 2s;
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
 
     .HomeTitle {
 
@@ -31,12 +33,12 @@
     .TrianguloTop {
 
         position: absolute;
-        top: -40vh;
+        top: -90vh;
         left: 20%;
         width: 60vw;
         height: auto;
         transform: rotate(-90deg);
-        z-index: -2;
+        z-index: -3;
         animation-name: TrianguloMove;
         animation-duration: 0.5s;
         animation-delay: 0.3s;
@@ -48,7 +50,7 @@
     @keyframes TrianguloMove {
 
         0%  { top:-180vh; opacity: 0;}
-        100% {top:-40vh; opacity: 1;}
+        100% {top:-90vh; opacity: 1;}
 
     }
 
@@ -74,7 +76,7 @@
         left: -15%;
         width: 800px;
         height: 800px;
-        z-index: -2;
+        z-index: -3;
     }
 
     
@@ -85,7 +87,7 @@
         left: -25%;
         width: 100%;
         height: auto;
-        z-index: -1;
+        z-index: -3;
 
     }
 
@@ -107,6 +109,7 @@
     width: 100%;
     height: auto;
     overflow-x: visible;
+    text-align: justify;
 
     
     h3 {
