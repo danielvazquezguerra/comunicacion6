@@ -4,9 +4,8 @@ import './Home.scss';
 import SlideHome from '../SlideHome/SlideHome';
 
 
-
-
 const Home = () => {
+
 
     return (
        
@@ -20,11 +19,11 @@ const Home = () => {
 
             <Parallax speed={20}>
 
-                <img className="TrianguloTop" src="/images/lineas_triangulo_right.png" alt="" />
+                <img className="TrianguloTop" src="/images/lineas_triangulo_right.png" alt="" />npm 
 
             </Parallax>
 
-            <Parallax speed={7}>
+            <Parallax speed={60}>
 
                 <img className="TrianguloDown" src="/images/lineas_triangulo_right.png" alt="" />
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import Parallax from 'react-rellax';
 import './App.scss';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
@@ -13,6 +12,7 @@ import Productos from './Containers/Productos/Productos';
 
 
 function App() {
+
 
   return (
 

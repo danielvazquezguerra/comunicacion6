@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './SlideHome.scss';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -7,8 +7,49 @@ const SlideHome = (props) => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex, e) => {
+      
     setIndex(selectedIndex);
+
     };
+    
+    let animacion = React.useRef();
+
+    const moveEvent = () => {
+
+      window.addEventListener('scroll', (props)=> {
+    
+        console.log(animacion);
+      
+        let posicionObj1 = props.animacion;
+      
+        console.log(posicionObj1);
+      
+        let screenSize = window.innerHeight / 3.5;
+      
+        console.log(screenSize);
+      
+        if (posicionObj1 < screenSize) {
+      
+          animacion.style.animation = 'TitleMove';  
+      
+        }
+      
+      });
+
+
+    }
+
+    useEffect(() => {
+    
+     
+      moveEvent();
+
+  }, [])
+  
+
+
+
+
 
     return (
 
@@ -16,7 +57,7 @@ const SlideHome = (props) => {
 
             <div className="ProductosContainerUp">
 
-                <h3 className="ProductosTitulo">PRODUCTOS</h3>
+                <h3 className="ProductosTitulo" ref= { animacion } >PRODUCTOS</h3>
 
                 <p> Contamos con un equipo de profesionales capacitados para
                     llevar a cabo con éxito cualquier proyecto publicitario, desde la concepción del mismo
@@ -24,6 +65,7 @@ const SlideHome = (props) => {
                     trabajos. Aunado a esto, también damos servicio a diseñadores freelance y comerciales dedicados 
                     a la venta de publicidad que sólo requieren
                     impresión o corte. 
+
                     <br />
                     <br />
                     
