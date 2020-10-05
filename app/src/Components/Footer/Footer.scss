@@ -4,9 +4,10 @@
 .FooterWrapper {
 
     display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(-90deg, #000000 0%, #242f38 100%);
+
 
 
     .FooterInfo {

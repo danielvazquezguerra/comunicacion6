@@ -5,23 +5,34 @@ const Header = () => {
 
     return (
 
+        <nav className="HeaderWrapper navbar navbar-expand-lg navbar-dark">
 
-        <section className="HeaderWrapper justify-content-between align-items-center">
+        <a className="LogoBox navbar-brand" href="/#">
+            <img className="Logo" src="/images/comunicacion-6-logo-2.png" alt=""/>
+        </a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+      
+        <div className="ButtonsBox collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="Buttons navbar-nav mr-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="/#">HOME <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/#">PRODUCTOS</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/#">NOSOTROS</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/#">CONTACTO</a>
+            </li>
+           
 
-
-            <img className="HeaderLogo" src="/images/comunicacion-6-logo-2.png" alt=""/>
-
-                <div className="ButtonsContainer d-flex w-50 align-items-center justify-content-around mr-5">
-
-                    <a href="/">HOME</a>
-                    <a href="/nosotros">NOSOTROS</a>
-                    <a href="/productos">PRODUCTOS</a>
-                    <a href="/contact">CONTACTO</a>
-
-                </div>
-
-
-        </section>
+          </ul>
+        </div>
+      </nav>
 
     )
 }

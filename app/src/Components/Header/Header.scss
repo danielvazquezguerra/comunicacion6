@@ -5,12 +5,87 @@
     display: flex;
     width: 100%;
     height: 100%;
-    // background-image: linear-gradient(-90deg, #000000 0%, #242f38 100%);
     animation-name: ContactContent;
     animation-duration: 0.5s;
     animation-delay: 0s;
     transition: $transition;
 
+
+    .BurgerBox {
+        display: flex;
+        width: 40px;
+        margin: 0px;
+        padding: 0px;
+
+        img {
+            width: 100%;
+        }
+    }
+  
+    
+    .LogoBox {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        height: 100%;
+        margin-left: 10px;
+
+        .Logo {
+            width: auto;
+            height: 80%;
+        }
+
+        .Logo:hover {
+            width: auto;
+            height: 90%;
+        }
+    }
+    
+    .ButtonsBox {
+        display: flex;
+        width: 90%;
+    
+
+        .Buttons {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            height: 100%;
+
+
+            a {
+                
+                all: unset;
+                color: $goldenrod;
+                cursor: pointer;
+                font-family: 'Gotham', sans-serif;
+                margin: 3em;
+                padding: 0px;
+                font-size: 0.9em;
+                font-weight: 800;
+                transition: $transition;
+                z-index: 1;
+                
+            }
+        
+            a:hover {
+                
+                all: unset;
+                color: $goldenrod;
+                cursor: pointer;
+                font-family: 'Gotham', sans-serif;
+                font-size: 1.5em;
+                font-weight: 800;
+                transition: $transition;
+                z-index: 2;
+             
+            }
+        }
+    }
+
+    
 
     @keyframes ContactContent {
 
@@ -20,51 +95,48 @@
     }
 
 
-    a {
-        
-        all: unset;
-        color: $goldenrod;
-        cursor: pointer;
-        font-family: 'Gotham', sans-serif;
-        font-size: 0.9em;
-        font-weight: 800;
-        transition: $transition;
-        
-    }
-
-    a:hover {
-        
-        all: unset;
-        color: $goldenrod;
-        cursor: pointer;
-        font-family: 'Gotham', sans-serif;
-        font-size: 1.5em;
-        font-weight: 800;
-        transition: $transition;
-     
-    }
-
-    .Burger {
-        
-        color: $goldenrod;
-        
-    }
-}
-
-.HeaderLogo {
-
-    height: 70%;
-    cursor: pointer;
-    margin: 0em 4em 0em 2em;
-    transition: $transition;
 
 }
 
-.HeaderLogo:hover {
 
-    height: 80%;
-    cursor: pointer;
-    margin: 0em 4em 0em 2em;
-    transition: $transition;
+@media screen and (max-width: 1024px) {
+
+
+    .HeaderWrapper {
+
+        .LogoBox {
+         
+            width: 20%;
+      }
+    
+      .ButtonsBox {
+          width: 80%;
+      }
+
+
+    }
+    
 
 }
+
+@media screen and (max-width: 768px) {
+
+
+    .HeaderWrapper {
+
+        .LogoBox {
+         
+            width: 20%;
+      }
+    
+      .ButtonsBox {
+          width: 80%;
+      }
+
+
+    }
+    
+
+}
+
+
