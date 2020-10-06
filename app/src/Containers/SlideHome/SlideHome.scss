@@ -103,18 +103,25 @@
         font-size: 0.9em;
     }
     
-    
-    
     .ServiceItem {
         
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 30%;
         height: auto;
-        // border: 5px solid $goldenrod;
-        padding: 2em;
+        padding: 1em;
         margin: 0.5em;
-        min-width: 300px;
+        min-width: 250px;
+
+        .icon {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 0.7em;
+        }
     }
     
 }
@@ -179,6 +186,46 @@
         font-weight: 600;
     }
     
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .SlideWrapper {
+        margin-top: 0px;
+    }
+    
+    
+    .ProductosContainerUp {
+
+        align-items: flex-start;
+
+        .ProductosTitulo{
+            padding: 0em 0.4em 0em 0.4em;
+            width: 50%;
+            font-size: 2.5em;
+
+        }
+
+        p {
+            font-size: 0.7em;
+            width: 80%;
+            padding: 0px;
+        }
+    }
+
+    .ProductosContainerDown {
+
+
+        .ServiceItem {
+            padding: 1em;
+            width: 45%;
+        }
+        
+        
+    }
+
+
 }
        
 

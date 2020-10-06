@@ -81,6 +81,8 @@ const SlideHome = (props) => {
 
                 <div className="ServiceItem White">
 
+                    <i class="icon far fa-eye"></i>
+
                     <h4>Branding</h4>
 
                     <p> Construimos tu marca mediante la administración 
@@ -93,6 +95,8 @@ const SlideHome = (props) => {
                 
                 <div className="ServiceItem White">
 
+                    <i class="icon fas fa-book-reader"></i>
+
                     <h4>Advertising</h4>
 
                     <p> Definimos un conjunto de estrategias orientadas a dar a conocer productos y servicios a la sociedad, 
@@ -103,6 +107,8 @@ const SlideHome = (props) => {
                 </div>
 
                 <div className="ServiceItem White">
+
+                    <i class="icon fas fa-cube"></i>
 
                     <h4>Packaging</h4>
 
@@ -115,6 +121,8 @@ const SlideHome = (props) => {
 
                 <div className="ServiceItem White">
 
+                    <i class="icon fas fa-directions"></i>
+
                     <h4>Sings</h4>
 
                     <p> Diseñamos sistemas de comunicación visual sintetizado en un conjunto de señales o símbolos que cumplen la función de guiar, 
@@ -125,6 +133,8 @@ const SlideHome = (props) => {
 
                 <div className="ServiceItem White">
 
+                    <i class="icon far fa-file-powerpoint"></i>
+
                     <h4>Impresión</h4>
 
                     <p>Las máquinas que poseemos nos permitirán dar un servicio de calidad y a un precio
@@ -134,6 +144,8 @@ const SlideHome = (props) => {
                 </div>
 
                 <div className="ServiceItem White">
+
+                    <i class="icon fas fa-palette"></i>
 
 
                     <h4>Diseño Gráfico</h4>
