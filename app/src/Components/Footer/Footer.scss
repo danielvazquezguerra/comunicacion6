@@ -16,14 +16,14 @@
         justify-content: flex-end;
         align-items: center;
         padding-right: 2em;
-        width: 90%;
+        width: 80%;
         height: 100%;
         
         p {
             
             color: $goldenrod;
             font-family: 'Gotham', sans-serif;
-            font-size: 0.7vw;
+            font-size: 10px;
             font-weight: 800;
             margin: 0px;
         
@@ -36,27 +36,26 @@
     
     display: flex;
     align-items: center;
-    width: 10%;
+    width: auto;
     height: 100%;
 
-
-
-}
-
-.SocialIcon {
+    .SocialIcon {
+        
+        color: $goldenrod;
+        font-size: 20px;
+        margin: 0em 1em 0em 1em;
     
-    color: $goldenrod;
-    font-size: 1.6em;
-
-}
-
-.SocialIcon:hover {
+    }
     
-    color: $goldenrod;
-    font-size: 2em;
-    transition: $transition;
-   
+    .SocialIcon:hover {
+        
+        color: $goldenrod;
+        font-size: 30px;
+        transition: $transition;
+       
+    }
 }
+
 
 
 .IconBox {

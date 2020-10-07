@@ -3,10 +3,12 @@
 
 .ScrollMargin {
 
-    position: fixed;
-    width: 60%;
-    top: 20%;
+    position: absolute;
+    width: 70%;
+    height: 400px;
+    top: 10%;
     right: 10%;
+   
     
     
     p {
@@ -33,6 +35,15 @@
         font-size: 0.7em;
         position: absolute;
         color: $goldenrod;
+
+        .ScrollLine {
+
+            width: 10%;
+            border-bottom: 1px solid white;
+            margin: 0px;
+
+        }
+        
         
         .fas {
             color: $goldenrod;

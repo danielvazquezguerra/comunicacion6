@@ -9,7 +9,7 @@ const Margins = (props) => {
 
             <div className="ScrollMargin">
 
-                <span className="ScrollInfo"><i class="fas fa-arrow-left"></i><p>-----------</p>HAZ SCROLL<p>-----------</p><i class="fas fa-arrow-right"></i></span>
+                <span className="ScrollInfo"><i class="fas fa-arrow-left"></i><p className="ScrollLine"></p>&nbsp;HAZ SCROLL<p  className="ScrollLine"></p>&nbsp;<i class="fas fa-arrow-right"></i></span>
 
             </div>
             

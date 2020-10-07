@@ -30,6 +30,14 @@
     
 }
 
+.Carousel {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+}
+
 
 
 .ProductosContainerUp {
@@ -129,9 +137,10 @@
 .SlideTitle {
     
     color: white;
-    font-size: 2em;
+    font-size: 1.4em;
     font-family: 'Gotham', sans-serif;
     font-weight: 100;
+    margin-top: 2em;
     
 }
 
@@ -159,8 +168,8 @@
         
         font-family: 'Gotham', sans-serif;
         font-weight: 100;
-        font-size: 2em;
-        line-height: 3vw;
+        font-size: 25px;
+        line-height: 60px;
         width: 50%;
         -webkit-text-stroke-width: 0;
         -webkit-text-stroke-color: $goldenrod;
@@ -225,7 +234,24 @@
         
     }
 
+    .FraseBottom {
 
+        h3 {
+            width: 70%;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .FraseBottom {
+
+        h3 {
+            width: 80%;
+        }
+    }
 }
        
 

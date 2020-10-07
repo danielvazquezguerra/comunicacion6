@@ -161,44 +161,52 @@ const SlideHome = (props) => {
             </div>
 
             <Carousel className="Carousel" activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/images/la-cachiteria-01.png"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <p className="SlideTitle">LA CACHITERIA</p>
-          <p>Valencia, España</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/images/julia-01.png"
-          alt="Second slide"
-        />
 
-        <Carousel.Caption>
-          <p className="SlideTitle">JULIA MINIMARKET</p>
-          <p>Valencia, España</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/images/altamira-01.png"
-          alt="Third slide"
-        />
+                
 
-        <Carousel.Caption>
-          <p className="SlideTitle">ALTAMIRA</p>
-          <p>
-            Tenerife, España
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="/images/la-cachiteria-01.png"
+                      alt="First slide"
+                    />
+                    {/* <Carousel.Caption>
+                      <p className="SlideTitle">LA CACHITERIA</p>
+                      <p>Valencia, España</p>
+                    </Carousel.Caption> */}
+                  </Carousel.Item>
+
+           
+
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="/images/julia-01.png"
+                      alt="Second slide"
+                    />
+
+                    {/* <Carousel.Caption>
+                      <p className="SlideTitle">JULIA MINIMARKET</p>
+                      <p>Valencia, España</p>
+                    </Carousel.Caption> */}
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="/images/altamira-01.png"
+                      alt="Third slide"
+                    />
+
+                    {/* <Carousel.Caption>
+                      <p className="SlideTitle">ALTAMIRA</p>
+                      <p>
+                        Tenerife, España
+                      </p>
+                    </Carousel.Caption> */}
+                  </Carousel.Item>
+
+              </Carousel>
 
             <section className="FraseBottom">
 

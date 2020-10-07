@@ -15,6 +15,7 @@ const Header = () => {
         </button>
       
         <div className="ButtonsBox collapse navbar-collapse" id="navbarSupportedContent">
+
           <ul className="Buttons navbar-nav mr-auto">
             <li className="nav-item active">
               <a className="nav-link" href="/">HOME <span className="sr-only">(current)</span></a>
@@ -29,7 +30,6 @@ const Header = () => {
               <a className="nav-link" href="/contact">CONTACTO</a>
             </li>
            
-
           </ul>
         </div>
       </nav>

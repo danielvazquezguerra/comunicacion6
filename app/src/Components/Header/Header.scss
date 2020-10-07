@@ -104,6 +104,8 @@
 
     .HeaderWrapper {
 
+        height: 20vh;
+
         .LogoBox {
          
             width: 20%;
@@ -124,13 +126,33 @@
 
     .HeaderWrapper {
 
+        height: 15vh;
+
         .LogoBox {
          
             width: 20%;
       }
     
       .ButtonsBox {
-          width: 80%;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        padding-left: 2em;
+
+        .Buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 50%;
+
+            a {
+                margin: 0px;
+            }
+        }
       }
 
 
