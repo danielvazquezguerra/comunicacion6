@@ -14,7 +14,7 @@ const About = () => {
 
                 <div className="AboutLeft">
 
-                    <img src="/images/about-comunicacion-6.png" alt=""/>
+                    <img src="/images/lapiz-macro.png" alt=""/>
 
 
 
