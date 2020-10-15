@@ -167,7 +167,7 @@ const SlideHome = (props) => {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="/images/la-cachiteria-01.png"
+                      src="/images/360-fitness.png"
                       alt="First slide"
                     />
                     {/* <Carousel.Caption>
@@ -181,7 +181,7 @@ const SlideHome = (props) => {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="/images/julia-01.png"
+                      src="/images/rincon-fit.png"
                       alt="Second slide"
                     />
 
@@ -194,7 +194,37 @@ const SlideHome = (props) => {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="/images/altamira-01.png"
+                      src="/images/karamel-factory.png"
+                      alt="Third slide"
+                    />
+
+                    {/* <Carousel.Caption>
+                      <p className="SlideTitle">ALTAMIRA</p>
+                      <p>
+                        Tenerife, España
+                      </p>
+                    </Carousel.Caption> */}
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="/images/km1.png"
+                      alt="Third slide"
+                    />
+
+                    {/* <Carousel.Caption>
+                      <p className="SlideTitle">ALTAMIRA</p>
+                      <p>
+                        Tenerife, España
+                      </p>
+                    </Carousel.Caption> */}
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src="/images/dixy-frost.png"
                       alt="Third slide"
                     />
 

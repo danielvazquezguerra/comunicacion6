@@ -60,7 +60,6 @@
         align-items: flex-start;
         justify-content: center;
         width: 50%;
-        height: 100%;
         padding: 2em;
         border: 2px solid $goldenrod;
         border-top: 0px;
@@ -75,5 +74,22 @@
             font-weight: 800;
         }
     }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .AboutWrapper {
+        margin-top: 15vh;
+    }
+
+    .AboutLeft {
+        img {
+            width: 250%;
+        }
+    }
+
+    
 
 }
