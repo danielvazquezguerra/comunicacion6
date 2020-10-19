@@ -13,18 +13,37 @@ const Productos = () => {
             
             <div className="ProductosMain">
 
-                   <img src="/images/slide2.jpg" alt=""/>
-                   <img src="/images/slide3.jpg" alt=""/>
-                   <img src="/images/slide4.jpg" alt=""/>
-                   <img src="/images/slide5.jpg" alt=""/>
-                   <img src="/images/slide6.jpg" alt=""/>
-                   <img src="/images/slide7.jpg" alt=""/>
-                   <img src="/images/slide8.jpg" alt=""/>
-                   <img src="/images/slide9.jpg" alt=""/>
-                   <img src="/images/slide9.jpg" alt=""/>
-                   <img src="/images/slide10.jpg" alt=""/>
-                   <img src="/images/slide11.jpg" alt=""/>
+               <div className="ProductosMainLeft">
+
+                   <img src="/images/360-mockup.jpg" alt="" />
+
+               </div>
+
+               <div className="ProductosRight">
+
+                    <h4>BRANDING</h4>
+                    <p><span>Construimos tu marca</span> mediante la administración estratégica del conjunto total de activos vinculados en forma directa o indirecta al nombre y/o símbolo (logotipo), influyendo en el valor de la marca, tanto para el cliente como para su empresa</p>
+
+               </div>
                    
+
+            </div>
+
+            <div className="ProductosMain">
+
+                <div className="ProductosMainLeft">
+
+                    <img src="/images/poster-mockup.jpg" alt="" />
+
+                </div>
+
+                <div className="ProductosRight">
+
+                    <h4>BRANDING</h4>
+                    <p><span>Construimos tu marca</span> mediante la administración estratégica del conjunto total de activos vinculados en forma directa o indirecta al nombre y/o símbolo (logotipo), influyendo en el valor de la marca, tanto para el cliente como para su empresa</p>
+
+                </div>
+                    
 
             </div>
 

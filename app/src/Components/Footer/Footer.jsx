@@ -17,10 +17,21 @@ const Footer = (props) => {
 
 
                 <div className="IconBox mr-5">
+
+                    <ul className="FooterButtons">
+                        <li className="FooterItem">
+                            <a href="https://www.instagram.com/comunicacion6tenerife/?hl=es"><i class="SocialIcon fab fa-instagram"></i></a>
+                        </li>
+
+                        <li className="FooterItem">
+                            <a href="https://www.facebook.com/comunicacion6/"><i class="SocialIcon fab fa-facebook-f"></i></a>
+                        </li>
+
+                        <li className="FooterItem">
+                            <a href="https://www.behance.net/comunicacion6estudio"><i class="SocialIcon fab fa-behance"></i></a>
+                        </li>
+                    </ul>
                     
-                    <a href="https://www.instagram.com/comunicacion6tenerife/?hl=es"><i class="SocialIcon fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/comunicacion6/"><i class="SocialIcon fab fa-facebook-f"></i></a>
-                    <a href="https://www.behance.net/comunicacion6estudio"><i class="SocialIcon fab fa-behance"></i></a>
 
                 </div>
 

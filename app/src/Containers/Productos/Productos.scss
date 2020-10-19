@@ -1,9 +1,9 @@
 @import '../../Colors.scss';
 
-
 .ProductosWrapper {
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -16,27 +16,55 @@
 .ProductosMain {
 
     display: flex;
-    width: 90%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     flex-wrap: wrap;
     overflow-y: scroll;
     overflow-x: hidden;
-    margin-top: 7%;
+    border-bottom: 1px solid white;
     animation-name: ContactWindow;
     animation-duration: 1s;
     transition: $transition;
+
+    .ProductosMainLeft {
+        padding: 2em;
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .ProductosRight {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+        font-family: 'Gotham black';
+        color: $goldenrod;
+        padding: 2em;
+
+        h4 {
+            font-size: 2em;
+        }
+
+        p {
+            font-family: 'Gotham';
+            width: 70%;
+            text-align: justify;
+        }
+
+        span {
+            font-family: 'Gotham Black';
+        }
+    }
 
     @keyframes ContactWindow {
 
         0%  { filter: blur(20px); opacity: 0;}
         100% { filter: blur(0px); opacity: 1;}
 
-    }
-
-    img {
-
-        width: 100%;
-        margin-top: 1em;
     }
 
 }

@@ -54,6 +54,14 @@
             width: 100%;
             height: 100%;
 
+            .nav-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 50px;
+            }
+
 
             a {
                 
@@ -61,7 +69,6 @@
                 color: $goldenrod;
                 cursor: pointer;
                 font-family: 'Gotham', sans-serif;
-                margin: 3em;
                 padding: 0px;
                 font-size: 0.9em;
                 font-weight: 800;
@@ -76,7 +83,7 @@
                 color: $goldenrod;
                 cursor: pointer;
                 font-family: 'Gotham', sans-serif;
-                font-size: 1.5em;
+                font-size: 1.4em;
                 font-weight: 800;
                 transition: $transition;
                 z-index: 2;

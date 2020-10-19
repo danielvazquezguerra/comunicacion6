@@ -8,6 +8,22 @@
     width: 100%;
     height: 100%;
 
+    .FooterButtons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+
+        .FooterItem {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 30px;
+        }
+    }
+
 
 
     .FooterInfo {
