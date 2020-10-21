@@ -1,25 +1,8 @@
-@font-face {
-    font-family: 'GothamBlack';
-    src: url('/fonts/gotham-black.otf');
-  }
-
-  @font-face {
-    font-family: 'GothamBook';
-    src: url('/fonts/gotham-book.ttf');
-  }
-
-  @font-face {
-    font-family: 'GothamThin';
-    src: url('/fonts/gotham-thin.otf');
-  }
-
 $gunmetal: #242F38;
 $crimson: #891d13;
 $middleyellow: #ffec00;
 $goldenrod: #c4850a;
 $olive: #807600;
 $black: #000000;
-
-
 
 $transition: 0.1s cubic-bezier(.66,-0.21,.31,1.36);
