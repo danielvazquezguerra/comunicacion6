@@ -134,27 +134,37 @@
     .HeaderWrapper {
 
         height: 15vh;
+        height: 100%;
 
         .LogoBox {
          
             width: 20%;
+            height: 80%;
       }
     
       .ButtonsBox {
-
+        
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        justify-content: flex-end;
+        margin-top: -10em;
+        margin-right: 4em;
         width: 100%;
         height: 150px;
         padding-left: 2em;
+        border: 0px;
 
         .Buttons {
+
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
+            justify-content: flex-start;
+            align-items: flex-end;
             width: 50%;
+
+            .nav-item {
+                display: flex;
+                justify-content: flex-end;
+            }
 
             a {
                 margin: 0px;

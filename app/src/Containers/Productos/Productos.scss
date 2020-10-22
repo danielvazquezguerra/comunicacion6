@@ -99,6 +99,10 @@
 
 @media screen and (max-width: 1024px) {
 
+    .ProductosWrapper {
+        margin-bottom: 3em;
+    }
+
     .ProductosMain {
 
         align-items: center;
@@ -114,6 +118,14 @@
                 font-size: 0.8em;
             }
         }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .ProductosWrapper {
+        margin-top: 3em;
     }
 
 }
