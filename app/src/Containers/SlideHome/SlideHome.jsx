@@ -59,7 +59,9 @@ const SlideHome = (props) => {
 
                 <h3 className="ProductosTitulo" ref= { animacion } >PRODUCTOS</h3>
 
-                <p> Contamos con un equipo de profesionales capacitados para
+                <p> 
+                  
+                    Contamos con un equipo de profesionales capacitados para
                     llevar a cabo con éxito cualquier proyecto publicitario, desde la concepción del mismo
                     hasta su produccción. Somos creadores y fabricantes de todos nuestros
                     trabajos. Aunado a esto, también damos servicio a diseñadores freelance y comerciales dedicados 
@@ -71,7 +73,9 @@ const SlideHome = (props) => {
                     
                     Las máquinas que poseemos nos permiten dar un servicio de calidad a un precio
                     competitivo, aunado a la asistencia técnica, asesoría profesional y el valor agregado del
-                    diseño, aseguraamos la fórmula perfecta para marcar la diferencia y lograr la máxima satisfacción de nuestros clientes.</p>  
+                    diseño, aseguraamos la fórmula perfecta para marcar la diferencia y lograr la máxima satisfacción de nuestros clientes.
+                    
+                </p>  
 
 
 
