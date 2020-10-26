@@ -1,129 +1,179 @@
 @import '../../Colors.scss';
 
-.HeaderWrapper {
+.HeaderMain {
 
     display: flex;
-    width: 100%;
-    height: 100%;
-    animation-name: ContactContent;
-    animation-duration: 0.5s;
-    animation-delay: 0s;
-    transition: $transition;
+    padding: 2em;
+    justify-content: center;
+    width: 100vw;
+    height: 25vh;
+    position: fixed;
+    top: 0px;
+    z-index: 120;
+    background-image: linear-gradient(-90deg, #000000 0%, #242f38 100%);
 
 
-    .BurgerBox {
-        display: flex;
-        width: 40px;
-        margin: 0px;
-        padding: 0px;
-
-        img {
-            width: 100%;
-        }
-    }
-  
-    
-    .LogoBox {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 10%;
-        height: 100%;
-        margin-left: 10px;
-
-        .Logo {
-            width: auto;
-            height: 80%;
-        }
-
-        .Logo:hover {
-            width: auto;
-            height: 90%;
-        }
-    }
-    
-    .ButtonsBox {
-        display: flex;
-        width: 90%;
-    
-
-        .Buttons {
-            display: flex;
-            justify-content: flex-end;
-            width: 100%;
-            height: 100%;
-
-            .nav-item {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 200px;
-                height: 50px;
-            }
-
-
-            a {
-                
-                all: unset;
-                color: $goldenrod;
-                cursor: pointer;
-                font-family: 'Gotham', sans-serif;
-                padding: 0px;
-                font-size: 0.9em;
-                font-weight: 800;
-                transition: $transition;
-                z-index: 1;
-                
-            }
+    .HeaderWrapper {
         
-            a:hover {
-                
-                all: unset;
-                color: $goldenrod;
-                cursor: pointer;
-                font-family: 'Gotham', sans-serif;
-                font-size: 1.4em;
-                font-weight: 800;
-                transition: $transition;
-                z-index: 2;
-             
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        animation-name: ContactContent;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        transition: $transition;
+        
+        
+        .BurgerBox {
+            display: flex;
+            width: 40px;
+            margin: 0px;
+            padding: 0px;
+            
+            img {
+                width: 100%;
             }
         }
+        
+        
+        .LogoBox {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 10%;
+            height: 100%;
+            
+            .Logo {
+                width: auto;
+                height: 80%;
+            }
+            
+            .Logo:hover {
+                width: auto;
+                height: 90%;
+            }
+        }
+        
+        .ButtonsBox {
+            display: flex;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            
+            
+            .Buttons {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                height: 100%;
+                
+                .nav-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    height: 50px;
+                }
+                
+                
+                a {
+                    
+                    all: unset;
+                    color: $goldenrod;
+                    cursor: pointer;
+                    font-family: 'Gotham', sans-serif;
+                    padding: 0px;
+                    font-size: 0.9em;
+                    font-weight: 800;
+                    transition: $transition;
+                    z-index: 1;
+                    
+                }
+                
+                a:hover {
+                    
+                    all: unset;
+                    color: $goldenrod;
+                    cursor: pointer;
+                    font-family: 'Gotham', sans-serif;
+                    font-size: 1.4em;
+                    font-weight: 800;
+                    transition: $transition;
+                    z-index: 2;
+                    
+                }
+            }
+        }
+        
+        
+        
+        @keyframes ContactContent {
+            
+            0%  { filter: blur(20px); opacity: 0; margin-top: -200px;}
+            100% { filter: blur(0px); opacity: 1; margin-top: 0px;}
+            
+        }
+        
+        
+        
     }
-
     
-
-    @keyframes ContactContent {
-
-        0%  { filter: blur(20px); opacity: 0; margin-top: -200px;}
-        100% { filter: blur(0px); opacity: 1; margin-top: 0px;}
-
-    }
-
-
-
+    //aqui
+    
 }
 
 
 @media screen and (max-width: 1024px) {
 
 
-    .HeaderWrapper {
+    .HeaderMain {
 
-        height: 20vh;
-
-        .LogoBox {
-         
-            width: 20%;
-      }
+        .HeaderWrapper {
     
-      .ButtonsBox {
-          width: 80%;
-      }
+            height: 15vh;
+            height: 100%;
+    
+            .LogoBox {
+             
+                width: 20%;
+                height: 100%;
+          }
+        
+          .ButtonsBox {
+            
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            height: 150px;
+
+    
+            .Buttons {
+    
+                display: flex;
+                align-items: center;
+                width: 100%;
+    
+                .nav-item {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 0.9em;
+                }
+    
+                a {
+                    margin: 0px;
+                }
+            }
+          }
+    
+    
+        }
 
 
     }
+
+
     
 
 }
@@ -131,51 +181,41 @@
 @media screen and (max-width: 768px) {
 
 
-    .HeaderWrapper {
+    .HeaderMain {
 
-        height: 15vh;
-        height: 100%;
+        .HeaderWrapper {
 
-        .LogoBox {
-         
-            width: 20%;
-            height: 80%;
-      }
-    
-      .ButtonsBox {
-        
-        display: flex;
-        justify-content: flex-end;
-        margin-top: -10em;
-        margin-right: 4em;
-        width: 100%;
-        height: 150px;
-        padding-left: 2em;
-        border: 0px;
-
-        .Buttons {
-
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-end;
-            width: 50%;
-
-            .nav-item {
-                display: flex;
-                justify-content: flex-end;
+            .navbar-toggler {
+                display: none;
             }
-
-            a {
+    
+            .ButtonsBox {
+                
+                padding: 0px;
+                font-size: 0.9em;
                 margin: 0px;
+                margin-top: -17vh;
+                width: 100%;
+                height: 150px;
+                border-bottom: 1px solid yellow;
+
+                .Buttons {
+
+                    align-items: flex-end;
+                    margin: 0px;
+
+                    .nav-item {
+                        margin-right: 3em;
+                        justify-content: flex-end;
+                    }
+
+                }
             }
         }
-      }
 
 
     }
     
-
 }
 
 

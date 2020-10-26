@@ -3,11 +3,11 @@
 
 .ScrollMargin {
 
-    position: absolute;
-    width: 70%;
-    height: 400px;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    right: 2%;
     top: 10%;
-    right: 10%;
    
     
     
@@ -22,19 +22,19 @@
     
     .ScrollInfo {
         
-        position: fixed;
-        width: 50%;
-        top: 30vh;
-        right: -21vw;
-        transform: rotate(-90deg);
         display: flex;
         align-items: center;
-        font-family: 'Gotham',sans-serif;
+        justify-content: center;
+        width: 63vh;
+        top: 46vh;
+        right: -17vw;
+        transform: rotate(-90deg);
+        font-family: "Gotham", sans-serif;
         letter-spacing: 1em;
         font-weight: 800;
         font-size: 0.7em;
         position: absolute;
-        color: $goldenrod;
+        color: #c4850a;
 
         .ScrollLine {
 
@@ -47,6 +47,32 @@
         
         .fas {
             color: $goldenrod;
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .ScrollMargin {
+
+        .ScrollInfo {
+
+            right: -27vh;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 415px) {
+
+    .ScrollMargin {
+
+        .ScrollInfo {
+
+            font-size: 0.6em;
+            right: -28vh;
         }
     }
 

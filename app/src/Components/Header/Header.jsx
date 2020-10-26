@@ -16,21 +16,22 @@ const Header = () => {
       
         <div className="ButtonsBox navbar-collapse" id="navbarSupportedContent">
 
-          <ul className="Buttons navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="/">HOME <span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/productos">PRODUCTOS</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/nosotros">NOSOTROS</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">CONTACTO</a>
-            </li>
-           
-          </ul>
+            <ul className="Buttons navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="/">HOME <span className="sr-only">(current)</span></a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/productos">PRODUCTOS</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/nosotros">NOSOTROS</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/contact">CONTACTO</a>
+              </li>
+            
+            </ul>
+            
         </div>
       </nav>
 
