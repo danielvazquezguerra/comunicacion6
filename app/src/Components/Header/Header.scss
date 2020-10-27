@@ -1,21 +1,9 @@
 @import '../../Colors.scss';
-
-.HeaderMain {
-
-    display: flex;
-    padding: 1em;
-    justify-content: center;
-    width: 100vw;
-    height: 25vh;
-    position: fixed;
-    top: 0px;
-    z-index: 120;
-    background-image: linear-gradient(-90deg, #000000 0%, #242f38 100%);
-
-
+ 
     .HeaderWrapper {
         
         display: flex;
+        justify-content: space-between;
         width: 100%;
         height: 100%;
         padding: 0px;
@@ -23,6 +11,8 @@
         animation-duration: 0.5s;
         animation-delay: 0s;
         transition: $transition;
+        background-image: linear-gradient(-90deg, #000000 0%, #242f38 100%);
+        margin-bottom: 3em;
         
         
         .BurgerBox {
@@ -42,7 +32,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 30%;
+            width: 20%;
             height: 100%;
             
             .Logo {
@@ -121,9 +111,6 @@
     }
     
     //aqui
-    
-}
-
 
 @media screen and (max-width: 1024px) {
 

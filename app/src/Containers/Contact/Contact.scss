@@ -5,14 +5,13 @@
     
 
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-
     justify-content: center;
     align-items: center;
     animation-name: ContactWindow;
     animation-duration: 1s;
     transition: $transition;
+    margin-top: 10vh;
 
 
     @keyframes ContactWindow {
@@ -25,6 +24,7 @@
     .ContactMain {
 
         display: flex;
+        flex-wrap: wrap;
         width: 90%;
         animation-name: ContactContent;
         animation-duration: 1s;
@@ -52,6 +52,7 @@
             align-items: center;
             width: 50%;
             padding: 2em;
+            min-width: 300px;
             
             img {
 
@@ -69,6 +70,7 @@
             padding: 2em;
             font-family: 'Gotham', sans-serif;
             color: $goldenrod;
+            min-width: 300px;
             
             h4 {
 
@@ -149,6 +151,21 @@
 
     .ContactWrapper {
         margin-top: 10em;
+
+    }
+
+}
+
+
+@media screen and (max-width: 415px) {
+
+    .ContactWrapper {
+
+        margin-top: 5em;
+
+        .ContactMain {
+            width: 80%;
+        }
 
     }
 

@@ -27,7 +27,7 @@
         justify-content: center;
         width: 63vh;
         top: 46vh;
-        right: -17vw;
+        right: -15vw;
         transform: rotate(-90deg);
         font-family: "Gotham", sans-serif;
         letter-spacing: 1em;
@@ -50,6 +50,17 @@
         }
     }
 
+}
+
+@media screen and (max-width: 1024px) {
+
+    .ScrollMargin {
+
+        .ScrollInfo {
+
+            right: -26vh;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
