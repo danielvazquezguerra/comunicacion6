@@ -16,9 +16,9 @@
 .ProductosMain {
 
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     height: auto;
-    flex-wrap: wrap;
     overflow-y: scroll;
     overflow-x: hidden;
     border-bottom: 1px solid $goldenrod;
@@ -29,6 +29,7 @@
     .ProductosMainLeft {
         padding: 2em;
         width: 50%;
+        min-width: 300px;
 
         img {
             width: 100%;
@@ -40,6 +41,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        min-width: 300px;
         width: 50%;
         font-family: 'Gotham black';
         color: $goldenrod;
@@ -126,6 +128,31 @@
 
     .ProductosWrapper {
         margin-top: 3em;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+
+    .ProductosWrapper {
+        
+        .ProductosMain {
+
+            .ProductosMainLeft {
+
+
+            }
+
+            .ProductosRight {
+
+                align-items: center;
+
+                h4 {
+                    text-align: center;
+                }
+
+            }
+        }
     }
 
 }

@@ -16,7 +16,7 @@ const Footer = (props) => {
             <div className="SocialBox justify-content-end align-items-center">
 
 
-                <div className="IconBox mr-5">
+                <div className="IconBox">
 
                     <ul className="FooterButtons">
                         <li className="FooterItem">
