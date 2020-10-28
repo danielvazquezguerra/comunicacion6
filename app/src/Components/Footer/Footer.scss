@@ -8,6 +8,7 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient(-90deg, #000000 0%, #242f38 100%);
+    z-index: 200;
 
     .FooterButtons {
         display: flex;
@@ -40,7 +41,7 @@
         p {
             
             color: $goldenrod;
-            font-family: 'Gotham', sans-serif;
+            font-family: 'GothamBlack';
             font-size: 10px;
             font-weight: 800;
             margin: 0px;

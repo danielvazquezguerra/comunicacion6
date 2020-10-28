@@ -73,10 +73,9 @@
                     all: unset;
                     color: $goldenrod;
                     cursor: pointer;
-                    font-family: 'Gotham', sans-serif;
+                    font-family: 'GothamBlack';
                     padding: 0px;
                     font-size: 0.9em;
-                    font-weight: 800;
                     transition: $transition;
                     z-index: 1;
                     
@@ -87,9 +86,8 @@
                     all: unset;
                     color: $goldenrod;
                     cursor: pointer;
-                    font-family: 'Gotham', sans-serif;
+                    font-family: 'GothamBlack';
                     font-size: 1.4em;
-                    font-weight: 800;
                     transition: $transition;
                     z-index: 2;
                     
@@ -225,7 +223,8 @@
             .ButtonsBox {
 
                 width: 60%;
-                margin-top: -22vh;
+                margin-top: -17vh;
+                margin-right: 2em;
 
                 .Buttons {
                     width: 100%;
